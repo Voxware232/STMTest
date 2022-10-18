@@ -99,6 +99,7 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+	  HAL_GPIO_WritePin(GPIOA, LED, HIGH);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
